@@ -1,12 +1,9 @@
 # stam
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+This project is meeant for all those who likes to watch a running log file or just want that everybody else will think they are actualy working
+
 
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
