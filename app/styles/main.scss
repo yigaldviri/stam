@@ -1,0 +1,32 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+
+body {
+  background-color: #000
+}
+
+#logs{
+  font-size:16px;
+}
+
+#console {
+  font-family: courier, monospace;
+  color: #fff;
+  margin-top:50px;
+  font-size:16px;
+}
+a {
+  color: #0bc;
+  text-decoration: none;
+}
+#a {
+  color: #0f0;
+}
+
+.about{
+
+}
