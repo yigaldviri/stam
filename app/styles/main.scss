@@ -28,5 +28,19 @@ a {
 }
 
 .about{
+  text-align: center;
+  padding: 7%;
 
+  .just{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .julien{
+    background-image: url(../images/King-Julien-and-Maurice.jpg);
+    background-size: cover;
+    width: 480px;
+    height: 383px;
+    display: inline-block;
+  }
 }

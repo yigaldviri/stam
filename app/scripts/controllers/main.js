@@ -3,7 +3,7 @@
 angular.module('stamApp')
   .controller('MainCtrl',['$scope', '$timeout', '$interval' , function ($scope, $timeout, $interval) {
 
-      $scope.loading = false;
+      $scope.loading = true;
       $scope.logs = [];
       var Typer={
           text: null,
@@ -60,7 +60,6 @@ angular.module('stamApp')
            No need to do anything else. </br>
            By the way - thanks a lot to Jeff Weisbein - jeff@besttechie.com ...`;
 
-/*
 
       var timer = $interval(function () {
           Typer.addText({"keyCode": 123748});
@@ -69,7 +68,6 @@ angular.module('stamApp')
               clearInterval(timer);
           }
       }, 30);
-*/
 
       function runLogs() {
           var time = 1000;
