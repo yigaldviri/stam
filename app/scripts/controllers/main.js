@@ -54,11 +54,11 @@ angular.module('stamApp')
       };
 
       Typer.text=
-          `Hi, My name is <b id="a">Yigal Dviri</b> and i'm a software engineer.  </br>
-           Long ago, I've found that when people see you using a command line interface they immidiatly think you're a hacker. </br>
-           So I've created a page that makes you look like a hacker by a simple click. </br>
-           No need to do anything else. </br>
-           By the way - thanks a lot to Jeff Weisbein - jeff@besttechie.com ...`;
+          "Hi, My name is <b id='a'>Yigal Dviri</b> and i'm a software engineer.  </br>" +
+           "Long ago, I've found that when people see you using a command line interface they immidiatly think you're a hacker. </br>" +
+           "So I've created a page that makes you look like a hacker by a simple click. </br>" +
+           "No need to do anything else. </br>" +
+           "By the way - thanks a lot to Jeff Weisbein - jeff@besttechie.com ...";
 
 
       var timer = $interval(function () {
