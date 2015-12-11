@@ -76,6 +76,9 @@ angular.module('stamApp')
               angular.forEach(data, function (logLine) {
                   $timeout(function () {
                       $scope.logs.push(logLine);
+                      if ($scope.logs.length > 200) {
+                          $scope.logs = $scope.logs.slice(0,100);
+                      }
                       eof.scrollIntoView();
                   }, time += (Math.random()*450));
               })
